@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: orange;
+}
+.logo {
+  padding: 20px;
+}
+
+.header-section {
+  display: inline-block;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+.nav-btn {
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px;
+}
+.nav-link {
+  color: black;
+  text-decoration: none;
+}
+.main-banner-logo {
+			border: 1px solid black;
+			width: 400px;
+			text-align: center;
+			margin: auto;
+		}
+
+		.software {
+			width: 100px;
+			height: 100px;
+		}
+
+		.more-info-btn {
+			display: block;
+		}
+
+		.software-box {
+			text-align: center;
+			border: 1px solid black;
+			width: 400px;
+      display: inline-block;
+      margin:5px;
+      padding:10px;
+		}
+    .software-details {
+      text-align: center;
+    }
+
+    body {
+      background-image: url(https://images.unsplash.com/photo-1524828960649-b5c01f3945a3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGVuc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+      background-size:cover;
+    }
